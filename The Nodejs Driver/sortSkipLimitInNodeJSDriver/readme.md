@@ -4,8 +4,8 @@ A simple app to sort student grades in ascending order, before skipping the firs
 ## Running the app
 1. Run ```mongod```
 2. Import dataset
-> mongoimport homework.json -c grades -d homework
+>> mongoimport homework.json -c grades -d homework
 3. Install node dependencies
-> npm install
+>> npm install
 4. Run node application
-> node sort.js
+>> node sort.js
