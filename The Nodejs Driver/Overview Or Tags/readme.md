@@ -28,4 +28,4 @@ query["milestones.source_description"] =
       {"$regex": options.milestones, "$options": "i"};
 ```
 
-Note that ```$regex": <word to match on>, <??>: "i"}``` provides a case-insensitive matching.
+Note that ```{$regex": <word to match on>, <??>: "i"}``` provides a case-insensitive matching.
