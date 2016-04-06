@@ -1,10 +1,11 @@
 # Building Query Documents
 Run this application by typing:
 
-node buildingQueryDocuments.js
+```node buildingQueryDocuments.js```
 
 This application runs with the following options passed in to build three different queries:
 
+```
 var allOptions = [
     {
         firstYear: 2002,
@@ -19,4 +20,5 @@ var allOptions = [
         city: "London"
     }
 ];
-
+```
+Good luck! :+1:
