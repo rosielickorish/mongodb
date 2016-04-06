@@ -8,3 +8,5 @@ in the Mongo shell. Do that by typing the following two commands, one at a time,
 
 use crunchbase
 db.dropDatabase()
+
+An example of the data contained in the dataset is shown in facebook.json.
