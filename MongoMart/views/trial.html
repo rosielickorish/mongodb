@@ -1,0 +1,5 @@
+{% for doc in docs %}
+  <li>{{ doc.title }}, {{ doc.name }}</a></li>
+{% else %}
+  <li>No movies found.</li>
+{% endfor %}
