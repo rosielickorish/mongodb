@@ -48,8 +48,8 @@ function CartDAO(database) {
 
         var cursor = this.db.collection('cart').find({"userId":userId})
         cursor.toArray(function(err,docs){
-          docs.forEach(function(err,docs){
-            callback(userCart);
+          docs.forEach(function(err,doc){
+            callback(doc);
           });
 
         });
